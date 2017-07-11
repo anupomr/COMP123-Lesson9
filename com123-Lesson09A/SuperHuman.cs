@@ -44,5 +44,12 @@ namespace com123_Lesson09A
         {
             this.Powers.Add(new Power(name, rank));
         }
+        public void DisplayPower()
+        {
+            foreach (var power in Powers)
+            {
+                Console.WriteLine("Name : "+power.Name+"Rank"+ power.Rank);
+            }
+        }
     }
 }
