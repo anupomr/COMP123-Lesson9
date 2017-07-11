@@ -34,7 +34,7 @@ namespace com123_Lesson09A
             }
         }
         // constract-----------------
-        public Human()
+        public Human(string name)
         {
 
         }
