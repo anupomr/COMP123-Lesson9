@@ -6,7 +6,7 @@ using System.Text;
 /*
 Name: Anupom Roy
 Date: 
-version: 0.2 Added Private initialized Method
+version: 0.2 Added Public addPowerMethod Method
 */
 namespace com123_Lesson09A
 {
@@ -21,7 +21,7 @@ namespace com123_Lesson09A
         public List<Power> Powers {
             get
             {
-                return this._powers
+                return this._powers;
             }
              }
 
@@ -39,6 +39,10 @@ namespace com123_Lesson09A
         {
             this._powers = new List<Power>();
         }
-        //public mathod
+        //public st
+        public void AddPower(string name, int rank)
+        {
+            this.Powers.Add(new Power(name, rank));
+        }
     }
 }
