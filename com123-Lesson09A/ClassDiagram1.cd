@@ -14,5 +14,12 @@
       <FileName>SuperHuman.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="com123_Lesson09A.Power">
+    <Position X="6.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Power.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
