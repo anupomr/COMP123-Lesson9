@@ -16,8 +16,15 @@ namespace com123_Lesson09A
     public class SuperHuman : Human
     {
         // private fields
-        private List<Power> _power;
+        private List<Power> _powers;
         // Public properties
+        public List<Power> Powers {
+            get
+            {
+                return this._powers
+            }
+             }
+
         // constract-----------------
         public SuperHuman(string name)
             :base(name)
@@ -30,7 +37,8 @@ namespace com123_Lesson09A
         /// </summary>
         private void _initialize()
         {
-            this._power = new List<Power>();
+            this._powers = new List<Power>();
         }
+        //public mathod
     }
 }
