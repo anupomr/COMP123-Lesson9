@@ -6,7 +6,7 @@ using System.Text;
 /*
 Name: Anupom Roy
 Date: 
-version: 0.2 Added Public addPowerMethod Method
+version: 0.5 Added overriden to string method
 */
 namespace com123_Lesson09A
 {
@@ -50,6 +50,17 @@ namespace com123_Lesson09A
             {
                 Console.WriteLine("Name : "+power.Name+"Rank"+ power.Rank);
             }
+        }
+        public override string  ToString() {
+            string outputString="";
+            outputString += "========================================================\n";
+            outputString += "Super humen Name " + this.Name + "\n";
+            outputString += "========================================================\n";
+            foreach (Power power in this.Powers)
+            {
+                outputString += "Power:" + power.Name + "Rank :  " + power.Rank + "\n";
+            }
+            return outputString;
         }
     }
 }
