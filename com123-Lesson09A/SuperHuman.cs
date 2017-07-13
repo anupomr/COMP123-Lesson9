@@ -6,7 +6,7 @@ using System.Text;
 /*
 Name: Anupom Roy
 Date: 
-version: 0.5 Added overriden to string method
+version: 0.6 Added overriden to string method
 */
 namespace com123_Lesson09A
 {
@@ -58,9 +58,16 @@ namespace com123_Lesson09A
             outputString += "========================================================\n";
             foreach (Power power in this.Powers)
             {
-                outputString += "Power:" + power.Name + "Rank :  " + power.Rank + "\n";
+                outputString += "Power:" + power.Name + " Rank :  " + power.Rank + "\n";
             }
             return outputString;
+        }
+        /// <summary>
+        /// This methods  override
+        /// </summary>
+        public override void DisplaySkill()
+        {
+            Console.WriteLine("Not implemented");
         }
     }
 }

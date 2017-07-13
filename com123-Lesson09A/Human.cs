@@ -38,5 +38,6 @@ namespace com123_Lesson09A
         {
 
         }
+        public abstract void DisplaySkill();
     }
 }

@@ -16,8 +16,9 @@ namespace com123_Lesson09A
         static void Main(string[] args)
         {
             SuperHuman superHuman = new SuperHuman("Supwr Drood");
-            superHuman.Powers.Add(new Power("Anupom",50));
-            superHuman.DisplayPower();
+            superHuman.Powers.Add(new Power("Spiderclimbing",50));
+            //superHuman.DisplayPower();
+            Console.WriteLine(superHuman.ToString());
         }
     }
 }
