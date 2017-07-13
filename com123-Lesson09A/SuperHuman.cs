@@ -6,7 +6,7 @@ using System.Text;
 /*
 Name: Anupom Roy
 Date: 
-version: 0.6 Added overriden to string method
+version: 0.6 Added the Displayskill stub method
 */
 namespace com123_Lesson09A
 {
